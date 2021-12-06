@@ -1,0 +1,99 @@
+*, *::before, *::after{
+    padding:0px;
+    margin: 0px;
+    font-family: sans-serif
+}
+
+.center{
+    text-align: center;
+}
+
+.overall{
+    max-width: 1200px;
+    margin:0px auto;
+}
+.row{
+    width: 100%;
+}
+.selection-area{
+    width: 35%;
+    background-color:wheat      ;
+    padding: 5px;
+    border-radius: 1px;
+}
+.form-Selection-bar{
+    width: 100%;
+    margin-bottom: 3px;
+}
+.form-Selection-bar>label{
+    width: 40%;
+    display: inline-block;
+    color: lightslategray;
+}
+.btn{
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+.btn-lg{
+    padding: 8px 10px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover{
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.btn-success{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover{
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.table{
+    width: 100%;
+}
+.table, tr, td, th{
+    border-collapse: collapse;
+}
+.thead-color{
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+#FoodList>tr:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+#cart>tr:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.text-center{
+    text-align: center;
+}
+.img-sm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+

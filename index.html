@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/FileCSS.css">
+</head>
+<body>
+    <div class="overall">
+        <div class="row">
+            <h2 class="center">Duong MiniMarket</h2>
+            <div class="selection-area">
+                <div class="form-Selection-bar">
+                    <label for="name">Tên mặt hàng</label>
+                    <input class="form-control" type="text" id="name" name="name">
+                </div>
+                <div class="form-Selection-bar">
+                    <label for="images">Ảnh minh họa</label>
+                    <input class="form-control" type="text" id="images" name="images">
+                </div>
+                <div class="form-Selection-bar">
+                    <label for="price">Giá sản phẩm</label>
+                    <input type="text" id="price" name="price">
+                </div>
+                <div class="form-Selection-bar">
+                    <label></label>
+                    <button class="btn btn-primary btn-lg" onclick="saveAdd()">Add to list</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="cart.html" role="button">Giỏ Hàng</a>
+        </div>
+        <div>
+            <h3 class="center">Display Food List</h3>
+            <div>
+                <table class="table">
+                    <thead class="thead-color">
+                        <tr>
+                            <th>#ID</th>
+                            <th>Name</th>
+                            <th>Images</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="FoodList">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="JS/FileJS-Index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
